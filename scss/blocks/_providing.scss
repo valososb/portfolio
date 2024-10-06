@@ -1,0 +1,128 @@
+.providing{
+    position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+
+}
+
+.providing:before{
+    content: '';
+	position: absolute;
+	top: 0;
+    right: 0;
+	width: 15%;
+	height: 100%;
+	background-image: url(/./img/providing/background-1.jpg);
+    background-size: cover;
+}
+
+.providing:after{
+    content: '';
+	position: absolute;
+	top: 0;
+    left: 0;
+	width: 15%;
+	height: 100%;
+	background-image: url(/./img/providing/background-2.jpg);
+    background-size: cover;
+    background-position: right;
+    z-index: -1;
+}
+
+.providing__grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.providing-header{
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 50px;
+}
+
+.providing-card {
+    max-width: 405px;
+    max-height: 305px;
+    aspect-ratio: 4 / 3;
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    color: #000;
+ 
+    border-radius: 15px;
+}
+
+.providing-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s;
+    border-radius: 20px;
+
+    &:hover{
+        transform: scale(110%);
+    }
+}
+
+.providing-card__footer {
+    padding: 2rem 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    gap: 0.5ch;
+    background: hsl(0deg 0% 93.06% / 77%);
+    backdrop-filter: blure(16px);
+    height: 30%;
+    align-content: center;
+}
+
+.providing-card__action {
+    position: absolute;
+    aspect-ratio: 1;
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+    bottom: 30%;
+    right: 0;
+    transform: translateY(50%);
+    display: grid;
+    place-items: center;
+    border-radius: 50% 0 0 50%;
+    box-shadow: -1px 5px 15px rgba(0, 0, 0, 0.5);
+    background: rgba(55, 53, 53, 0.92);
+}
+
+.providing-card__action img {
+    width: 85%;
+    margin-left: 5px;
+    &:hover{
+        transform: scale(90%);
+    }
+}
+
+.span-content-1{
+    font-weight: 600;
+    font-size: clamp(16px, 2.5vh, 20px);
+    color: var(--text-color);
+
+    margin-top: 5px;
+}
+
+.span-content-2{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #595959;
+
+    margin: 5px 0 5px 0;
+}

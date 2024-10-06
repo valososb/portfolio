@@ -1,0 +1,66 @@
+.products {
+	padding-top: 60px;
+
+    margin-bottom: -100px;
+}
+
+.products__title {
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.products__tabs {
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.products__slider {
+
+	@include desktop-small (){
+		padding: 0 40px;
+	}
+
+	@include mobile (){
+		padding: 0 20px;
+	}
+
+}
+
+.products__link {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+////
+.products{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.products__title{
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.products__tabs{
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.products__link{
+    text-align: center;
+    gap: 13px;
+    align-items: center;
+    color: var(--accent);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.85;
+
+&::after{
+    content:url('./../img/arrow-right.png');
+    height: 24px;
+}
+}

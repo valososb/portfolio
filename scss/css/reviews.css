@@ -1,0 +1,124 @@
+.reviews_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.reviews_blocks{
+    width: 330px;
+    min-height: 300px;
+    padding: 40px 30px;
+    background: #fbfbfbc7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.reviews_text{
+    color: #1e1e1e;
+    font-weight: 500;
+    font-size: 20px;
+
+    margin: 5px;
+}
+
+.reviews_content{
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 20px;
+    word-wrap: break-word;
+
+    padding-top: 20px;
+}
+
+.reviews-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 25px;
+    color: #1e1e1e;
+    padding-bottom: 30px;
+}
+
+.write_review{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    width: 330px;
+    min-height: 300px;
+    padding: 40px 30px;
+    background: #fbfbfbc7;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff73, 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+
+.field {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.otziv{
+    min-height: 200px;
+    word-wrap: break-word;
+}
+
+.un-btn{
+    padding-top: 130px;
+    padding-bottom: 15px;
+}
+
+.content-edita{
+    font-weight: 600;
+    font-size: 20px;
+
+    color: #1e1e1e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: normal;
+}
+
+.text-edita{
+    font-weight: 500;
+    font-size: 20px;
+    color: #1e1e1e;
+    padding-bottom: 15px;
+}
+
+.btn-ignore{
+color: #cc4d4d;
+padding-top: 30px;
+font-weight: 600;
+font-size: 25px;
+}
+
+.ignore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-active{
+color: #1e1e1e;
+padding-top: 10px;
+font-weight: 600;
+font-size: 25px;
+}
+
+.reviews-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
