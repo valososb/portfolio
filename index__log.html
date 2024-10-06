@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>autoService</title>
+
+  <link rel="stylesheet" href="./scss/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="header__nav nav">
+
+        <div class="nav__logo">
+          <a href="#!" class="logo">AUTOservice</a>
+        </div>
+
+        <ul class="nav-list">
+          <li class="nav-list__item">
+            <a href="#products" class="nav-list__link">Запчасти</a>           
+          </li>
+          <li class="nav-list__item">
+            <a href="#providing" class="nav-list__link">Услуги</a>         
+          </li>
+          <li class="nav-list__item">
+            <a href="#onas" class="nav-list__link">О нас</a>
+          </li>
+          <li class="nav-list__item">
+            <a href="#contacts" class="nav-list__link">Контакты</a>
+          </li>
+        </ul>
+
+        <div class="nav-neo">
+          <a href="./Pages/Profile.php" class="nav-list__auth">Профиль</a>
+        </div>
+
+        <button id="open-mobile-nav-btn" class="nav__btn"><img src="./img/icons/mobile-nav.svg"
+            alt="Open navigation"></button>
+      </nav>
+
+      <div class="header__content">
+        <div class="swiper Swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <h1 class="header__title">
+                грузовой автосервис
+              </h1>
+              <p>
+                Компания "AUTOservice" - это грузовой автосервис,осуществляющий ремонт и обслуживание автмобилей.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="header__title">
+                преимущества СТО
+              </h1>
+              <p>
+                Большая свободная парковка для тягачей и полуприцепов. Быстрая доставка запчастей в пределах СПб и Лен.
+                Области.
+              </p>
+            </div>
+            <div class="swiper-slide">
+              <h1 class="header__title">
+                автозапчасти
+              </h1>
+              <p>
+                В нашем сервисе вы всегда можете приобрести запастные части мировых брендов.У нас своя курьерская
+                доставка.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="header__btn">
+        <a href="#onas" class="button type--A">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">Подробнее</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+      </div>
+
+
+    </div>
+  </header>
+
+  <div class="benefit-content">
+    <div class="brand-parent container">
+      <div class='brands brands-carousel' id="brands-carousel">
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/fiat-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/ford-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/honda-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/mercedes-benz-svgrepo-com 1.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/renault-alt-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/Volvo_Iron_Mark-OIrKkHREz_brandlogos.net 1.svg" alt=""></a>
+        </div>
+      </div>
+
+      <div class='brands brands-carousel' id="brands-carousel2">
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/fiat-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/ford-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/honda-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/mercedes-benz-svgrepo-com 1.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/renault-alt-svgrepo-com.svg" alt=""></a>
+        </div>
+        <div class='slide-content'>
+          <a href="#!"><img src="./img/scroll/Volvo_Iron_Mark-OIrKkHREz_brandlogos.net 1.svg" alt=""></a>
+        </div>
+
+      </div>
+
+      <div class="fade"></div>
+    </div>
+  </div>
+
+  <section class="products" id="products">
+
+    <div class="container">
+
+      <h2 class="products__title">Запчасти</h2>
+
+      <div class="products__slider">
+
+        <div class="slider">
+
+          <div class="swiper">
+            <div class="wrapper">
+              <div class="content">
+
+                <div class="bg-shape">
+                  <img src="./img/slider/autoservice.png" alt="">
+                </div>
+
+
+                <div class="product-img">
+
+                  <div class="product-img__item" id="img1"><img style="filter: brightness(80%)" src="./img/slider/1.png"
+                      alt="" class="product-img__img"></div>
+
+                  <div class="product-img__item" id="img2"><img style="filter: brightness(80%)" src="./img/slider/2.png"
+                      alt="" class="product-img__img"></div>
+
+                  <div class="product-img__item" id="img3"><img style="filter: brightness(80%)" src="./img/slider/3.png"
+                      alt="" class="product-img__img"></div>
+
+                  <div class="product-img__item" id="img4"><img style="filter: brightness(80%)" src="./img/slider/4.png"
+                      alt="" class="product-img__img"></div>
+
+                  <div class="product-img__item" id="img5"><img style="filter: brightness(80%)" src="./img/slider/5.png"
+                      alt="" class="product-img__img"></div>
+
+                </div>
+
+                <div class="product-slider">
+                  <button class="prev disabled">
+                    <span class="icon">
+                      <svg class="icon icon-arrow-right">
+                        <use xlink:href="#icon-arrow-left"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <button class="next">
+                    <span class="icon">
+                      <svg class="icon icon-arrow-right">
+                        <use xlink:href="#icon-arrow-right"></use>
+                      </svg>
+                    </span>
+                  </button>
+
+                  <div class="product-slider__wrp swiper-wrapper">
+
+                    <div class="product-slider__item swiper-slide" data-target="img1">
+                      <div class="product-slider__card">
+                        <img src="./img/slider/slider-bg.jpg" alt="" class="product-slider__cover">
+                        <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                            Тормозные колодки и накладки для грузовых автомобилей
+                          </h1>
+                          <div class="product-slider__bottom">
+                            <a href="detal_col.html"><button class="product-slider__cart">ПОДРОБНЕЕ</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product-slider__item swiper-slide" data-target="img3">
+                      <div class="product-slider__card">
+                        <img src="./img/slider/slider-bg.jpg" alt="" class="product-slider__cover">
+                        <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                            Ремкомплекты тормозных суппортов для грузовых автомобилей
+                          </h1>
+                          <div class="product-slider__bottom">
+                            <a href="detal_remcom.html"><button class="product-slider__cart">ПОДРОБНЕЕ</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product-slider__item swiper-slide" data-target="img5">
+                      <div class="product-slider__card">
+                        <img src="./img/slider/slider-bg.jpg" alt="" class="product-slider__cover">
+                        <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                            Энергоаккумуляторы и тормозные камеры для грузовых автомобилей
+                          </h1>
+                          <div class="product-slider__bottom">
+                            <a href="detal_energo.html"><button class="product-slider__cart">ПОДРОБНЕЕ</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product-slider__item swiper-slide" data-target="img4">
+                      <div class="product-slider__card">
+                        <img src="./img/slider/slider-bg.jpg" alt="" class="product-slider__cover">
+                        <div class="product-slider__content">
+                          <h1 class="product-slider__title">
+                            Сцепление для грузовых автомобилей
+                          </h1>
+                          <div class="product-slider__bottom">
+                           <a href="detal_scep.html"><button class="product-slider__cart">ПОДРОБНЕЕ</button></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg class="hidden" hidden>
+              <symbol id="icon-arrow-left" viewBox="0 0 32 32">
+                <path
+                  d="M0.704 17.696l9.856 9.856c0.896 0.896 2.432 0.896 3.328 0s0.896-2.432 0-3.328l-5.792-5.856h21.568c1.312 0 2.368-1.056 2.368-2.368s-1.056-2.368-2.368-2.368h-21.568l5.824-5.824c0.896-0.896 0.896-2.432 0-3.328-0.48-0.48-1.088-0.704-1.696-0.704s-1.216 0.224-1.696 0.704l-9.824 9.824c-0.448 0.448-0.704 1.056-0.704 1.696s0.224 1.248 0.704 1.696z">
+                </path>
+              </symbol>
+              <symbol id="icon-arrow-right" viewBox="0 0 32 32">
+                <path
+                  d="M31.296 14.336l-9.888-9.888c-0.896-0.896-2.432-0.896-3.328 0s-0.896 2.432 0 3.328l5.824 5.856h-21.536c-1.312 0-2.368 1.056-2.368 2.368s1.056 2.368 2.368 2.368h21.568l-5.856 5.824c-0.896 0.896-0.896 2.432 0 3.328 0.48 0.48 1.088 0.704 1.696 0.704s1.216-0.224 1.696-0.704l9.824-9.824c0.448-0.448 0.704-1.056 0.704-1.696s-0.224-1.248-0.704-1.664z">
+                </path>
+              </symbol>
+            </svg>
+          </div>
+        </div>
+  </section>
+
+  <div class="providing" id="providing">
+    <div class="container">
+      <h1 class="providing-header">Популярные услуги</h1>
+      <div class="providing__grid">
+
+        <div href="#" class="providing-card">
+          <img src="./img/providing/providing-1.jpg" alt="" class="providing-card__img">
+          <span class="providing-card__footer">
+            <span class="span-content-1">Техническое плановое обслуживание</span>
+            <span class="span-content-2">Двигатель, трансмиссия</span>
+          </span>
+          <span class="providing-card__action">
+            <a href="yslygi_1.html"><img src="./img/providing/more.svg" alt=""></a>
+          </span>
+        </div>
+
+        <div href="#" class="providing-card">
+          <img src="./img/providing/providing-2.jpg" alt="" class="providing-card__img">
+          <span class="providing-card__footer">
+            <span class="span-content-1">Ремонт ходовой,подвески и торомозов</span>
+            <span class="span-content-2">Тормозная система, подвеска, замена детали</span>
+          </span>
+          <span class="providing-card__action">
+            <a href="yslygi_2.html"><img src="./img/providing/more.svg" alt=""></a>
+          </span>
+        </div>
+
+        <div href="#" class="providing-card">
+          <img src="./img/providing/providing-3.jpg" alt="" class="providing-card__img">
+          <span class="providing-card__footer">
+            <span class="span-content-1">Регулировка схождения и соосности</span>
+            <span class="span-content-2">Обслуживание на 3D станке</span>
+          </span>
+          <span class="providing-card__action">
+            <a href="yslygi_3.html"><img src="./img/providing/more.svg" alt=""></a>
+          </span>
+        </div>
+
+        <div href="#" class="providing-card">
+          <img src="./img/providing/providing-4.jpg" alt="" class="providing-card__img">
+          <span class="providing-card__footer">
+            <span class="span-content-1">Ремонт пневосистемы</span>
+            <span class="span-content-2">Предложим множество вариантов</span>
+          </span>
+          <span class="providing-card__action">
+            <a href="yslygi_4.html"><img src="./img/providing/more.svg" alt=""></a>
+          </span>
+        </div>
+
+        <div href="#" class="providing-card">
+          <img src="./img/providing/providing-5.jpg" alt="" class="providing-card__img">
+          <span class="providing-card__footer">
+            <span class="span-content-1">Ремонт электрики</span>
+            <span class="span-content-2">Диагностика, ремонт</span>
+          </span>
+          <span class="providing-card__action">
+            <a href="yslygi_5.html"><img src="./img/providing/more.svg" alt=""></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="neo-container" id="onas">
+    <div class="container-02">
+      <h1 class="service-heading__title">О нас</h1>
+      <div class="glass-container">
+        <div class="glassmorphic-card">
+          <div class="card-hover">
+            <div class="card-hover__content">
+              <h3 class="card-hover__title">
+                Ознакомьтесь с сервисом <span>AUTOservice</span>
+              </h3>
+              <p class="card-hover__text">Автосервис «AUTOservice» специализируется на ремонте и техническом
+                обслуживании грузовых автомобилей, прицепов и полуприцепов.</p>
+              <a href="#!" class="card-hover__link">
+                <span>НОВЫЙ КЛИЕНТ</span>
+              </a>
+            </div>
+            <div class="card-hover__extra">
+              <h4>Диагностика транспорта скидка <span>10%</span></h4>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="glassmorphic-card">
+          <div class="imgBox">
+            <i class="fa fa-pencil-ruler"></i>
+          </div>
+          <div class="contentBox">
+            <div class="service-heading">
+              <h1>Рекомендуемое</h1>
+              <p>Ремонт грузовых автомобилей</p>
+            </div>
+            <div class="service-content">
+              <a href="">Подробная информация</a>
+              <h1>Осуществляем ремонт и плановое техническое обслуживание грузовых прицепов и полуприцепов на нашем
+                сервисе по адресу: <span>Санкт-Петербург, Московское шоссе дом 249 литер А, пос. Ленсоветовский, посёлок
+                  Шушары.</span></h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="glass-container">
+          <div class="imgBox">
+            <i class="fa fa-pencil-ruler"></i>
+          </div>
+          <div class="service-card__grid">
+            <h3 class="service-card__title">
+              <img class="service-card__img" src="./img/icons/our/1.svg" alt="">
+
+              <div class="service__text">
+                <h1>Гарантия</h1>
+                <p>Качественные запчасти</p>
+              </div>
+            </h3>
+
+            <h3 class="service-card__title">
+              <img class="service-card__img" src="./img/icons/our/3.svg" alt="">
+
+              <div class="service__text">
+                <h1>Доверие</h1>
+                <p>Постоянные клиенты</p>
+              </div>
+            </h3>
+
+            <h3 class="service-card__title">
+              <img class="service-card__img" src="./img/icons/our/5.svg" alt="">
+
+              <div class="service__text">
+                <h1 class="content-glav">Комфорт</h1>
+                <p class="content-text">Удобство при ремонте</p>
+              </div>
+            </h3>
+
+            <h3 class="service-card__title">
+              <img class="service-card__img" src="./img/icons/our/7.svg" alt="">
+
+              <div class="service__text">
+                <h1>Выгода</h1>
+                <p>Дешевле чем у дилера</p>
+              </div>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contacts" id="contacts">
+    <div class="container">
+      <h1 class="contacts-title">Контакты</h1>
+
+      <div class="contacts-grid">
+
+        <div class="contact-card">
+          <img class="contact-img" src="./img/contact/man3.jpg" alt="">
+          <h1>Моторист</h1>
+          <p>Ульянов Александр Николаевич</p>
+
+          <div class="social-image">
+            <a class="social-image__hover" href=""><img class="social-img" src="./img/contact/telegram.svg" alt=""></a>
+            <a class="social-image__hover" href=""><img class="social-img__vk" src="./img/contact/vk.svg" alt=""></a>
+            <a class="social-image__hover" href=""><img class="social-img" src="./img/contact/whatsapp.svg" alt=""></a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <img class="contact-img" src="./img/contact/man1.jpg" alt="">
+          <h1>Автомеханик</h1>
+          <p>Ульянов Дмитрий Александрович</p>
+
+          <div class="social-image">
+            <a class="social-image__hover" href=""><img class="social-img" src="./img/contact/telegram.svg" alt=""></a>
+            <a class="social-image__hover" href=""><img class="social-img__vk" src="./img/contact/vk.svg" alt=""></a>
+            <a class="social-image__hover" href=""><img class="social-img" src="./img/contact/whatsapp.svg" alt=""></a>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+
+  <section class="map">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2009.1898721467658!2d30.479823577294795!3d59.76291227623918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469626eee951563b%3A0x98c4162a4705bd14!2z0JzQvtGB0LrQvtCy0YHQutC-0LUg0YguLCAyMzMsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTY2MzQ!5e0!3m2!1sru!2sru!4v1715085476684!5m2!1sru!2sru"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container container--small">
+      <!-- footer__grid -->
+      <div class="footer__grid">
+
+        <!-- Desc -->
+        <div class="footer__desc">
+          <div class="footer__logo">
+            <a href="#!" class="logo">AUTOservice</a>
+          </div>
+
+          <p>Мы имеем большой опыт по ремонту грузового транспорта а так-же прицепов и полуприцепов.</p>
+          <ul class="fot-row">
+            <li class="footer_desc-con">
+              <p>Адрес:</p>
+              <h1>Московское шоссе д.233</h1>
+            </li>
+            <li class="footer_desc-con">
+              <p>Телефон:</p>
+              <h1>+7(981) 859-17-14</h1>
+            </li>
+            <li class="footer_desc-con">
+              <p>Почта:</p>
+              <h1>autoservice@gmail.com</h1>
+            </li>
+          </ul>
+        </div>
+        <!-- // Desc -->
+
+        <nav class="footer__nav footer__nav--services">
+          <h3 class="footer__nav-title">Услуги</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="yslygi_1.html">Техническое плановое обслуживание</a></li>
+            <li class="footer__list-item"><a href="yslygi_2.html">Ремонт ходовой, подевски и тормозов</a></li>
+            <li class="footer__list-item"><a href="yslygi_3.html">Регулировка схождения и соосности</a></li>
+            <li class="footer__list-item"><a href="yslygi_4.html">Ремонт пневмосистемы</a></li>
+            <li class="footer__list-item"><a href="yslygi_5.html">Ремонт электрики</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__nav">
+          <h3 class="footer__nav-title">Запчасти</h3>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="detal_scep.html">Сцепление</a></li>
+            <li class="footer__list-item"><a href="detal_col.html">Тормозные колодки и накладки</a></li>
+            <li class="footer__list-item"><a href="detal_remcom.html">Ремкомплекты для тормозных суппортов</a></li>
+            <li class="footer__list-item"><a href="detal_energo.html">Энергоаккумуляторы и тормозные камеры</a></li>
+          </ul>
+        </nav>
+
+      </div>
+      <!-- // footer__grid -->
+
+
+      <!-- footer__row -->
+      <div class="footer__row">
+        <div class="footer__copyright">Copyright © 2024</div>
+
+        <div class="footer__links">
+          <a href="#!">Terms & Conditions</a>
+          <a href="#!">Privacy Policy</a>
+        </div>
+
+      </div>
+      <!-- // footer__row -->
+
+    </div>
+  </footer>
+
+  <!-- Mobile nav -->
+  <div id="mobile-nav" class="mobile-nav-wrapper">
+    <div class="mobile-nav-header">
+      <a href="#cart" class="mobile-cart">AUTOservice</a>
+
+      <button id="close-mobile-nav-btn" class="mobile-nav-btn-close">
+        <img src="./img/icons/close.svg" alt="Close navigation">
+      </button>
+    </div>
+
+    <ul class="mobile-nav">
+      <li class="nav-list__item">
+        <a href="#products" class="nav-list__link">Запчасти</a>           
+      </li>
+      <li class="nav-list__item">
+        <a href="#providing" class="nav-list__link">Услуги</a>         
+      </li>
+      <li class="nav-list__item">
+        <a href="#onas" class="nav-list__link">О нас</a>
+      </li>
+      <li class="nav-list__item">
+        <a href="#contacts" class="nav-list__link">Контакты</a>
+      </li>
+      <li class="mobile-nav__item">
+        <a href="./Pages/Profile.php" class="nav-list__auth">Профиль</a>
+      </li>
+      
+    </ul>
+  </div>
+  <!-- // Mobile nav -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="./js/pro-slider.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
